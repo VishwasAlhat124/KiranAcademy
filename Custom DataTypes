@@ -1,0 +1,15 @@
+class Phone{
+      int mbNo;
+      String email;
+}
+
+class Address{
+      String city;
+      phone ph;
+}
+
+class Student{
+      String name;
+      int age;
+      Address add;
+}
