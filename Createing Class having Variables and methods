@@ -1,0 +1,46 @@
+class Hostel{
+      Sting Id;
+      String nm;
+      int mb;
+      String add;
+
+     String Hospality();
+     String facilities();
+}
+
+class Politicalparty{
+      String Partynm;
+      String Leadernm;
+      int votes;
+
+      String Rally();
+      String Promises()
+}
+
+class Shop{
+      String product;
+      int price;
+      String expdt;
+      int stock;
+
+     String cleanlyness();
+     String Discount();
+}
+
+class House{
+      String add;
+      int area;
+      String floor;
+
+     boolean Firnished();
+     String WaterSupply();
+}
+
+class Gym{
+      String Membernm;
+      int plan;
+      boolean feespaid;
+
+      boolean trainar();
+      String equipments();
+}
